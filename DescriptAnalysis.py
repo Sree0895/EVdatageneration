@@ -22,7 +22,6 @@ DateList = range(0,32)
 YearWise = []
 TypeWise = []
 MonthWise = []
-SensorWise = []
 HourWise = []
 DateWise =[]
 WeekDayWise =[]
