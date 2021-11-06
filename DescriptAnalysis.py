@@ -13,7 +13,7 @@ YearList=[]
 TypeList=[]
 MonthList = ["Jan", "Feb", "Mar", "Apr", "May","Jun", "Jul", "Aug", "Sep","Oct","Nov","Dec"]
 WeekDayList = ["Sun", "Mon", "Tue", "Wed", "Thu","Fri", "Sat"]
-SensorList = ['Sensor 1','Sensor 2','Sensor 3']
+
 RegionList = []
 ChargePointList = [] 
 HourList = range(0,24)
