@@ -14,9 +14,9 @@ from datetime import date
 import csv
 
 filename = 'Vehicleinfo2.csv'
-Chargepoint = ['1','2','3']
+ChargePoint = ['CP1','CP2','CP3','CP4']
 RegionList = ['Adilabad','Bhadradri','Hyderabad','Hanumakonda','Jagtial','Jangoan','Kamareddy','Karimnagar','Khammam','Mahabubnagar','Mancherial','Nalgonda']
-Vlist = ['TS08HE6446', 'AP28AN8619','TS08ER2494'] 
+Vlist = ['TS08HE6446', 'AP28AN8619','TS08ER2494','TS08HR5663] 
 #Ebatlist = ['15','125','276','124','40', '125', '276','180','255']
 #Mbatlist = ['1.2','2.2','3.0','4.6','1.2','3.7','2.2','1.2','4.6','4.6','3.4','3.7','3.0','2.2','40','3.7','2.1','40','40','70','124','4.6','300']
 Nbatlist = ['15','125','276','124','276','125','124']
@@ -101,7 +101,7 @@ for j in range(100000000000000000):
                 power_con = 2.5*duration            
                           
                          
-            data = [Chargepoint[i],Vlist[i], vtype,RegionList[i], battery, intialcharge, finalcharge, charge_total, start_time, stop_time, duration,power_con,base.weekday(),base.year, base.month, base.day, base.hour, base.minute ]
+            data = [ChargePoint[i],Vlist[i], vtype,RegionList[i], battery, intialcharge, finalcharge, charge_total, start_time, stop_time, duration,power_con,base.weekday(),base.year, base.month, base.day, base.hour, base.minute ]
         
        
         
